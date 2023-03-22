@@ -1,0 +1,29 @@
+<html>
+    <head>
+        <title>styling text</title>
+        <style>
+            .bold{
+                font-weight: bold;
+            }
+            .italic{
+                font-style: italic;
+            }
+            .underline{
+                text-decoration: underline;
+            }
+            a{
+                text-decoration: none;
+            }
+            a:hover{ /*pseudo selector */
+                color: green;
+                text-decoration: underline;
+            }
+        </style>
+    </head>
+    <body>
+        <p class="bold">This is line one</p>
+        <p class="italic">This is line two and <span class="bold">some more text</span></p>
+        <p class="underline">This is line three</p>
+        <a href="">Link to Google</a>
+    </body>
+</html>

@@ -1,0 +1,39 @@
+<html>
+    <head>
+        <title>Float</title>
+        <style>
+            #first-section{
+                color: red;
+                font-size: 30px;
+                background-color: yellow;
+                width: 20%;
+                float: right;
+            }
+            .learn{
+                color:black;
+                font-size:30px;
+                background-color: yellowgreen;
+                width:40%;
+                float: left;
+            }
+            .clear{
+                /* clear property is use to break the flow of the web page */
+                clear: both;
+            }
+        </style>
+    </head>
+
+    <body>
+        <div id="first-section">
+            <!-- It is not recommended to use space in id -->
+            <h1>CSS is cool</h1>
+            <p>I am learning CSS</p>
+        </div>
+
+        <div class="learn">
+            <p>CSS is Fun</p>
+            <p>This is some random text</p>
+        </div>
+        <p class="clear">This is not floated</p>
+    </body>
+</html>

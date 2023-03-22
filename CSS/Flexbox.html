@@ -1,0 +1,58 @@
+<html>
+    <head>
+        <title>Flexbox</title>
+        <style>
+            /* ul is parent element of li */
+            ul{
+                list-style-type: none;
+                margin: 0;
+                padding: 0;
+                height: 200px;
+                border: solid 1px red;
+                display: flex;
+                /* flex-direction: column; */
+
+                /* flex-direction: column-reverse; */
+
+                /* flex-direction: row-reverse; */
+
+                /* flex-direction: row;
+                justify-content: flex-start; */
+
+                /* flex-direction: row;
+                justify-content: flex-end; */
+
+                /* flex-direction: row;
+                justify-content: space-around; */
+
+                flex-direction: row;
+                justify-content: space-between;
+                /* align-items: flex-start; */
+
+                /* align-items: self-end; */
+
+                align-items: stretch;
+            }
+            li{
+                border: 1px solid black;
+                margin: 0.5em;
+                padding: 0.5em;
+            }
+            .first{
+                order: 1;
+            }
+            .second{
+                order: 2;
+            }
+            /* for class:- higher the value of order more priority will be assign to the element/item */
+        </style>
+    </head>
+
+    <body>
+        <ul>
+            <li class="first">1st</li>
+            <li class="second">2nd</li>
+            <li>3rd</li>
+        </ul>
+    </body>
+</html>
