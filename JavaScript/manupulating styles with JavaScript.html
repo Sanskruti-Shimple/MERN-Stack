@@ -1,0 +1,16 @@
+<html>
+    <head>
+        <title>manupulating styles with js</title>
+    </head>
+    
+    <body>
+        <p id="para"> This is Paragraph id </p>
+        <button id="add"> Click Me</button>
+
+        <script>
+            document.getElementById("add").onclick = function(){
+                document.getElementById("para").style.color = "red";
+            }
+        </script>
+    </body>
+</html>
