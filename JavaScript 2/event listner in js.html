@@ -1,0 +1,18 @@
+<html>
+  <head>
+    <title>Event Listener in JavaScript</title>
+  </head>
+  <body>
+    <button id="click">Click Me</button>
+  </body>
+  <script>
+    //Callback Function "function(Event)":- A function that calls itself on execution of a particular function is called as callback function
+    document
+      .getElementById("click")
+      .addEventListener("click", function (Event) {
+        //alert("Button Clicked!");
+        var audio = new Audio("music.mp3");
+        audio.play();
+      });
+  </script>
+</html>
