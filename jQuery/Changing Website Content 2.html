@@ -1,0 +1,16 @@
+<html>
+  <head>
+    <title>Changing Website Content Using jQuery</title>
+    <script src="jQuery.js"></script>
+  </head>
+
+  <body>
+    <p>This is Some Random Text</p>
+    <script>
+      $("p").click(function () {
+        //To send alert, here the content in .html function is empty so it will through a notification
+        alert($("p").html());
+      });
+    </script>
+  </body>
+</html>
