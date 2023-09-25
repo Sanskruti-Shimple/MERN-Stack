@@ -1,0 +1,26 @@
+<html>
+  <head>
+    <title>Fading Content 3</title>
+    <script src="jQuery.js"></script>
+    <!-- CSS for the animation -->
+    <style>
+      #para {
+        display: none;
+      }
+    </style>
+  </head>
+  <body>
+    <p id="para">
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Error, in
+      repudiandae? Nisi commodi dignissimos dolorum hic harum eligendi modi
+      libero aut natus excepturi, amet soluta ex iusto laudantium quis eaque.
+    </p>
+    <button>Fade Content</button>
+
+    <script>
+      $("button").click(function () {
+        $("#para").fadeIn(3000);
+      });
+    </script>
+  </body>
+</html>

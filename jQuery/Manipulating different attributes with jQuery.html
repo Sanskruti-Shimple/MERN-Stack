@@ -1,0 +1,15 @@
+<html>
+  <head>
+    <title>Changing Website Content Using jQuery</title>
+    <script src="jQuery.js"></script>
+  </head>
+
+  <body>
+    <iframe src="https://jquery.com/" frameborder="0"></iframe>
+    <script>
+      $("iframe").hover(function () {
+        $("iframe").attr("src", "https://www.bbc.com/");
+      });
+    </script>
+  </body>
+</html>

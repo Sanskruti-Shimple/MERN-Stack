@@ -1,0 +1,23 @@
+<html>
+  <head>
+    <title>Changing Website Styles Using jQuery</title>
+    <script src="jQuery.js"></script>
+
+    <style>
+      #circle {
+        width: 200px;
+        height: 200px;
+        background-color: red;
+        border-radius: 50%;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="circle"></div>
+    <script>
+      $("#circle").click(function () {
+        alert("Circle Clicked");
+      });
+    </script>
+  </body>
+</html>

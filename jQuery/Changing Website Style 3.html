@@ -1,0 +1,22 @@
+<html>
+  <head>
+    <title>Changing Website Style 3</title>
+    <script src="jQuery.js"></script>
+    <style>
+      #circle {
+        width: 200px;
+        height: 200px;
+        background-color: red;
+        border-radius: 50%;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="circle"></div>
+    <script>
+      $("#circle").click(function () {
+        $("#circle").css("width", "600");
+      });
+    </script>
+  </body>
+</html>

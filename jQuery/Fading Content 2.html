@@ -1,0 +1,24 @@
+<html>
+  <head>
+    <title>Fading Content 2</title>
+    <script src="jQuery.js"></script>
+    <style></style>
+  </head>
+  <body>
+    <p>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab vero facere,
+      laudantium sunt, facilis fuga nam voluptatem aliquam itaque, corrupti
+      recusandae ad iste asperiores assumenda culpa placeat molestias alias.
+      Nostrum?
+    </p>
+    <button>Fade Content</button>
+    <script>
+      $("button").click(function () {
+        $("p").fadeOut(function () {
+          <!-- call back function -->
+          alert("Content has Faded Out");
+        });
+      });
+    </script>
+  </body>
+</html>

@@ -1,0 +1,37 @@
+<html>
+  <head>
+    <title>On Click Event</title>
+    <script src="jQuery.js"></script>
+    <style>
+      #Circle {
+        width: 200px;
+        height: 200px;
+        background-color: green;
+        border-radius: 50%;
+      }
+      #Square {
+        width: 200px;
+        height: 200px;
+        background-color: red;
+        margin-top: 10px;
+      }
+      #circle {
+        width: 200px;
+        height: 200px;
+        background-color: green;
+        border-radius: 50%;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="Circle"></div>
+    <div id="Square"></div>
+    <div id="Square"></div>
+    <div id="circle"></div>
+    <script>
+      $("div").click(function () {
+        alert("Div is Clicked!!");
+      });
+    </script>
+  </body>
+</html>
